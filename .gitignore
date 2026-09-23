@@ -1,0 +1,22 @@
+# Dataset files
+DDR.zip
+DR_grading/
+*.zip
+
+# Kaggle credentials
+kaggle.json
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Large trained model files
+*.keras
+*.h5
+
+# Colab / temporary files
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
