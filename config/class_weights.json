@@ -1,0 +1,15 @@
+import json
+
+class_weights_json = {
+    str(k): float(v)
+    for k, v in class_weights.items()
+}
+
+with open("/content/class_weights.json", "w") as f:
+    json.dump(
+        class_weights_json,
+        f,
+        indent=4
+    )
+
+print("class_weights.json created successfully")
