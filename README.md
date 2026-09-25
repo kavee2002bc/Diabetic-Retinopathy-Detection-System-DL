@@ -146,6 +146,22 @@ The notebook records the model architecture, preprocessing configuration, data a
 
 The DDR dataset is not included in this repository because of its large size.
 
+
+# EfficientNetB0 Results
+
+This folder contains the final evaluation results and visualizations for the EfficientNetB0 diabetic retinopathy classification model.
+
+The results were obtained using the held-out test set after model training.
+
+## Included Results
+
+- `efficientnetb0_metrics.csv` - Final test metrics
+- `classification_report.csv` - Precision, recall, F1-score and support
+- `confusion_matrix.png` - Confusion matrix
+- `roc_curve.png` - One-vs-Rest ROC curves and AUC values
+- `training_history.png` - Training and validation accuracy/loss
+- `misclassified_examples.png` - Examples of incorrectly classified retinal images
+
 The dataset should be obtained through the dataset source used by the project and placed in the required local/Google Drive path before running the notebook.
 
 ## Important Note
