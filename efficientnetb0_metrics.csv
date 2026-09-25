@@ -1,0 +1,2 @@
+Model,Test_Loss,Test_Accuracy,Macro_ROC_AUC,Weighted_ROC_AUC,Misclassified_Images,Total_Test_Images,Misclassification_Rate
+EfficientNetB0,1.4295244216918945,0.43693453073501587,0.5945805413947053,0.5961159211057699,1058,1879,0.5630654603512507
