@@ -1,0 +1,83 @@
+Model: EfficientNetB0
+Student Name: A.S.P.L.T Pushpakumara
+Student ID: IT23177246
+
+Task: Five-Class Diabetic Retinopathy Classification
+
+Dataset: DDR
+
+Number of Classes: 5
+
+Classes:
+0 - No DR
+1 - Mild DR
+2 - Moderate DR
+3 - Severe DR
+4 - Proliferative DR
+
+Input Image Size: 224 x 224 x 3
+Batch Size: 32
+Random Seed: 42
+
+Pretrained Weights: ImageNet
+Base Model: EfficientNetB0
+Base Model Trainable: False
+
+Classification Head:
+GlobalAveragePooling2D
+Dropout: 0.3
+Dense: 128 units
+Activation: ReLU
+Dropout: 0.2
+Output Dense: 5 units
+Activation: Softmax
+
+Optimizer: Adam
+Learning Rate: 1e-5
+Loss Function: Categorical Crossentropy
+
+Data Augmentation:
+Rotation Range: 10 degrees
+Width Shift Range: 0.05
+Height Shift Range: 0.05
+Zoom Range: 0.10
+Horizontal Flip: True
+
+Class Weighting:
+Balanced class weights calculated using the training set
+
+Callbacks:
+EarlyStopping
+ModelCheckpoint
+ReduceLROnPlateau
+
+EarlyStopping:
+Monitor: val_loss
+Patience: 5
+Restore Best Weights: True
+
+ReduceLROnPlateau:
+Monitor: val_loss
+Factor: 0.2
+Patience: 2
+Minimum Learning Rate: 1e-7
+
+Dataset Split:
+Training: 8765 images
+Validation: 1878 images
+Test: 1879 images
+
+Test Accuracy: 43.69%
+Test Loss: 1.4295
+
+ROC-AUC:
+No DR: 0.6762
+Mild DR: 0.4797
+Moderate DR: 0.4753
+Severe DR: 0.6304
+Proliferative DR: 0.7114
+
+Error Analysis:
+Total Test Images: 1879
+Misclassified Images: 1058
+Misclassification Rate: 56.31%
