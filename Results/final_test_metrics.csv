@@ -1,0 +1,7 @@
+Metric,Score
+Test Accuracy,0.513
+Weighted Precision,0.6339
+Weighted Recall,0.513
+Weighted F1-Score,0.5264
+Macro ROC-AUC,0.8121
+Weighted ROC-AUC,0.7816

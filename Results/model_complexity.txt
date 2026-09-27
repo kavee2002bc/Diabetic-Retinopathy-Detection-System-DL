@@ -1,0 +1,5 @@
+EfficientNetB0 Model Complexity
+================================
+Total parameters: 4,214,184
+Trainable parameters: 164,613
+Non-trainable parameters: 4,049,571
