@@ -204,7 +204,7 @@ Diabetic-Retinopathy-Detection-System-DL/
 │
 ├── ddr_common_split.csv
 │
-├── IT23177246_EfficientNetB0_DDR_File.ipynb
+├── IT23177246_EfficientNetB0_DDR.ipynb
 │
 ├── EfficientNetB0_Results/
 │   ├── class_weights.csv
