@@ -1,0 +1,6 @@
+Class,Class ID,Training Samples,Class Weight
+No DR,0,4386,0.3997
+Mild DR,1,441,3.9751
+Moderate DR,2,3134,0.5593
+Severe DR,3,165,10.6242
+Proliferative DR,4,639,2.7433
