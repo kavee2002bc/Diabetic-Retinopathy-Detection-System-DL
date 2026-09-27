@@ -4,7 +4,7 @@ This branch contains the **ResNet50** implementation for the Diabetic Retinopath
 
 ## Contents
 
-- **Notebook:** [`results/resnet50/ResNet50.ipynb`](results/resnet50/ResNet50.ipynb) — full training and evaluation pipeline
+- **Notebook:** [`ResNet50.ipynb`](ResNet50.ipynb) — full training and evaluation pipeline
 - **Detailed documentation and results:** [`results/resnet50/README.md`](results/resnet50/README.md)
 
 ## Summary
