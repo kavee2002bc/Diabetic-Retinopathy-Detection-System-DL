@@ -1,0 +1,5 @@
+Model,No DR,Mild,Moderate,Severe,Proliferative
+Custom CNN,0.8691,0.0842,0.1324,0.1429,0.1606
+ResNet50 v3,0.9319,0.0737,0.6265,0.4286,0.6788
+MobileNetV2,0.684,0.6105,0.2738,0.7143,0.6788
+EfficientNetB0,0.7426,0.3684,0.1875,0.8,0.562
